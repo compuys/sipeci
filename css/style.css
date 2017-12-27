@@ -31,6 +31,9 @@ body{
 .text-center{
   text-align:center
 }
+.text-justify{
+  text-align : justify;
+}
 .color-x{
   color: #212121
 }
