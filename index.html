@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="widht=device-whidth, initial-scale=1.0">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet"  href="css/main.css">
-	<link rel="stylesheet"  href="css/animate.css">
-	<link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> 
-	<title>Tienda DeFlor</title>
-	<script src="js/main.js"></script>
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-</head>
-<body>
-	<header>
-		<div class="contenedor">
-			<div class="logo">
-				<img src="imagen/jaca1.jpg" class="col-xs-9 col-md-5 col-sm-5 quitar-float animated bounce" alt="">
-			</div>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi página</title>
+    <!--si utilizo <style media="screen"> .nombre{color:red}   </style> se aplicaran a las que lleven clasa="lo mismo despues del punto"-->
+    <link rel="stylesheet" href="./css/style.css"> <!--rel significa de trata steelsheet es hoja de estilo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
 
-			<nav>
-				<ul>
-					<li><a class="lobster verde" href="p.html">Menu</a></li>
-					<li><a class="lobster verde" href="c.html">Contacto</a></li>
-					<li><a class="lobster verde" href="q.html">Quienes somos</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+  <body>
+    <!--All you need to remember is row, column, content.-->
+    <div class="row main-container middle-xs center-xs">
+      <div class="col-lg-7 col-md-8 col-sm-10 col-xs-11"><!--largas grandes medianas pequeñas-->
+          <div class="box">
+            <div class="card body animated fadeInUp">
+              <header class="main-header"><!--Un encabezado de navegacion-->
+                  <nav class="main-nav"> <!--Navegacio-->
+                      <a href="index.html"  class="nav-link">Inicio</a>
+                      <a href="menu.html"  class="nav-link">Menú</a>
+                      <a href="http://www.google.com.ec"  class="nav-link">Google</a>
+                  </nav>
+              </header>
+                <div class="menu body">
+                  <header class="text-center">
+                      <img src="./imagenes/cat.jpg" height="200" alt="catwoman">
+                      <h1 class="color-x lobster title threed">Prueba</h1> <!--el color rgb va entre 0 y 250 y a va ente 0 y 1-->
+                  </header>
+                  <div class="productos">
+                    <div class="row center-xs">
+                      <div class="col-xs-10 col-sm-6 col-md-4 product animated zoomIn delay-1">
+                        <div class="card">
+                          <img src="imagenes/productos/catw.png" alt="gatubela">
+                          <h3>Gatubela</h3>
+                          <p>va a venir</p>
+                        </div>
+                      </div>
+                      <div class="col-xs-10 col-sm-6 col-md-4 product animated zoomIn delay-2">
+                        <div class="card">
+                          <img src="imagenes/productos/flash.png" alt="the flash">
+                          <h3>the flash</h3>
+                          <p>va a venir</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-	<div class="contenedor">
-		<div class="col-nd-4 center-block quitar-float text-center espacio-arriba">
-		<h1 class="lobster grande rojooscuro animated bounceInRight retraso1">Tienda De Flor</h1>
-			<div class="animated bounceInUp retraso2">
-				<h2 class="lobster m-g negro">Se vende computadoras, utilez escolares y se arreglan</h2>
-			</div>
-		</div>
+              <p>Bienvenidos a mi página web</p>
+              <p>Steven Araujo</p>
+            </div>
 
-		<div>
-			<li class="text-right col-md-10 m-g">Items</li>
-			<li class="text-right col-md-10 m-g">Items</li>
-		</div>
-
-		<div>
-			<video controls="controls" widht="400" height="300">
-				<source src="video/programar.mp4" type="video/mp4">
-			</video>
-		</div>
-	</div>
-
-</body>
+          </div>
+      </div>
+    </div>
+  </body>
 </html>
-
+<!--en el css si pongo sin punto se aplica al mismo-->
