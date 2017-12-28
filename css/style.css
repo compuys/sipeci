@@ -34,9 +34,6 @@ body{
 .text-justify{
   text-align : justify;
 }
-.text-left{
-    text-align: left;
-}
 .text-negrita{
     font-weight:bold;
 }
